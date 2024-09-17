@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 15%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vw;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  color: #232323;
+}
+
+button {
+  background-color: #FF0000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.primeiraSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.primeiraSessao div {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30vw;
+}
+.primeiraSessao h1 {
+  font-family: "Koh Santepheap", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #232323;
+}
+.primeiraSessao p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #232323;
+}
+.primeiraSessao img {
+  width: 30%;
+}
+
+.segundaSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.segundaSessao div {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35vw;
+}
+.segundaSessao h4 {
+  font-family: "Koh Santepheap", sans-serif;
+  color: #FF0000;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.segundaSessao h1 {
+  font-family: "Koh Santepheap", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #232323;
+}
+.segundaSessao p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #232323;
+}
+.segundaSessao img {
+  width: 40%;
+}
+
+.populares {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 13%;
+  font-family: "Koh Santepheap", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #232323;
+}
+
+.terceiraSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.terceiraSessao div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F8F5F2;
+  border-radius: 5%;
+  width: 20vw;
+}
+.terceiraSessao img {
+  width: 70%;
+  position: relative;
+  top: -100px;
+  margin-bottom: -80px;
+}
+.terceiraSessao h3 {
+  font-family: "Koh Santepheap", sans-serif;
+  font-weight: 400;
+  color: #232323;
+  font-size: 1.5rem;
+  padding: 2%;
+}
+.terceiraSessao p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  width: 15vw;
+  font-size: 0.9rem;
+  padding: 2%;
+}
+.terceiraSessao h4 {
+  font-family: "Koh Santepheap", sans-serif;
+  color: #FF0000;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 3%;
+}
+
+.comentario {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Koh Santepheap", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #232323;
+}
+
+.quartaSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.quartaSessao div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #F8F5F2;
+  border-radius: 5%;
+  width: 30vw;
+}
+.quartaSessao .perfil1 {
+  width: 20%;
+  margin: 5% 5%;
+}
+.quartaSessao h1 {
+  font-family: "Koh Santepheap", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-left: 5%;
+}
+.quartaSessao p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 20vw;
+}
+.quartaSessao img {
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.quartaSessao .perfil2 {
+  width: 20%;
+  margin: 5% 5%;
+}
+
+.quintaSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+  width: 50vw;
+  margin-bottom: 3%;
+}
+.quintaSessao .lista {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+}
+.quintaSessao h1 {
+  font-family: "Koh Santepheap", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-bottom: 5%;
+  color: #232323;
+}
+.quintaSessao a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #232323;
+}
+
+.divisoria {
+  border: none;
+  height: 0.3vh;
+  background-color: #f8f5f2;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+footer .logo {
+  width: 10%;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */

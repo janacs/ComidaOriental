@@ -1,0 +1,274 @@
+$font-titulos: "Koh Santepheap", sans-serif;
+$font-texto: "Poppins", sans-serif;
+$cor-de-fundo-caixas: #F8F5F2;
+
+@mixin flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin estilo-button{
+    background-color: #FF0000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 15%;
+}
+
+header{
+    @include flexbox();
+    height: 10vh;//vh ->height
+
+    ul{
+        @include flexbox();
+        width: 30vw;
+        list-style: none;
+        font-family: $font-texto;
+        color: #232323;
+    }
+}
+
+button{
+    @include estilo-button();
+    font-family: $font-texto;
+}
+
+.primeiraSessao{
+    @include flexbox();
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+    div{
+        height: 20vh;
+        @include flexbox();
+        flex-direction: column;
+        align-items: flex-start;
+        width: 30vw;
+    }
+
+    h1{
+        font-family: $font-titulos;
+        font-size: 2rem;
+        font-weight: 400;
+        color: #232323;
+    }
+
+    p{
+        font-family: $font-texto;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #232323;
+    }
+
+    img{
+        width: 30%;
+    }
+}
+
+.segundaSessao{
+    @include flexbox();
+
+    div{
+        height: 20vh;
+        @include flexbox();
+        flex-direction: column;
+        align-items: flex-start;
+        width: 35vw;
+    }
+
+    h4{
+        font-family: $font-titulos;
+        color: #FF0000;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    h1{
+        font-family: $font-titulos;
+        font-weight: 400;
+        font-size: 2rem;
+        color: #232323;
+    }
+
+    p{
+        font-family: $font-texto;
+        font-weight: 400;
+        font-size: 1rem;
+        color:#232323;
+    }
+
+    img{
+        width: 40%;
+    }
+}
+
+.populares{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 13%;
+    font-family: $font-titulos;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #232323;
+}
+
+.terceiraSessao{
+    @include flexbox();
+
+    div{
+        @include flexbox();
+        flex-direction: column;
+        align-items: center;
+        background-color: #F8F5F2;
+        border-radius: 5%;
+        width: 20vw;
+    }
+
+    img{
+        width: 70%;
+        position: relative;
+        top: -100px;
+        margin-bottom: -80px;
+    }
+
+    h3{
+        font-family: $font-titulos;
+        font-weight: 400;
+        color: #232323;
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+
+    p{
+        font-family: $font-texto;
+        text-align: center;
+        font-weight: 400;
+        width: 15vw;
+        font-size: 0.9rem;
+        padding: 2%;
+    }
+
+    h4{
+        font-family: $font-titulos;
+        color: #FF0000;
+        font-weight: 400;
+        font-size: 1.5rem;
+        padding: 3%;
+    }
+}
+
+.comentario{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: $font-titulos;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #232323;
+}
+
+.quartaSessao{
+    @include flexbox();
+
+    div{
+        @include flexbox();
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #F8F5F2;
+        border-radius: 5%;
+        width: 30vw;
+    }
+
+    .perfil1{
+        width: 20%;
+        margin: 5% 5%;
+    }
+
+    h1{
+        font-family: $font-titulos;
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-left: 5%;
+    }
+
+    p{
+        font-family: $font-texto;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-left: 5%;
+        margin-top: 2%;
+        width: 20vw;
+    }
+
+    img{
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+
+    .perfil2{
+        width: 20%;
+        margin: 5% 5%;
+    }
+}
+
+.quintaSessao{
+    @include flexbox();
+    margin-top: 5%;
+    width: 50vw;
+    margin-bottom: 3%;
+
+    .lista{
+        @include flexbox();
+        flex-direction: column;
+        align-items: flex-start;
+        list-style: none;
+    }
+
+    h1{
+        font-family: $font-titulos;
+        font-weight: 400;
+        font-size: 1rem;
+        padding-bottom: 5%;
+        color: #232323;
+    }
+
+    a{
+        font-family: $font-texto;
+        font-weight: 400;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: #232323;
+    }
+}
+
+.divisoria{
+    border: none;
+    height: 0.3vh;
+    background-color: #f8f5f2;
+}
+
+footer{
+    @include flexbox();
+    margin-top: 2%;
+
+    .logo{
+        width: 10%;
+    }
+
+    ul{
+        @include flexbox();
+        list-style: none;
+    }
+}
